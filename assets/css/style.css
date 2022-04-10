@@ -1,5 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
 
+/*FAKE BUTTONS*/
+
+.button__1 {
+    background-color: rgba(42, 122, 228, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.button__2 {
+    border: 1px solid;
+    border-color: rgba(42, 122, 228, 1);
+    color: rgba(42, 122, 228, 1);
+    padding: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    margin-right: 10px;
+}
+
 body {
     color: #464646;
     font-family: 'Raleway', sans-serif;
@@ -242,46 +265,85 @@ header {
 
         .job {
             display: flex;
-            justify-content: flex-end;
+            justify-content: center;
             align-items: center;
+            margin-bottom: 54px;
         }
 
         .job img {
             max-width: 752px;
         }
 
-        .job__text {
+        .job__content {
             margin-left: 25px;
+            margin-right: 25px;
         }
 
-        .job__text h2 {
+        .job__content h2 {
             font-weight: 700;
             font-size: 22px;
             line-height: 26px;
             padding-bottom: 8px;
         }
 
-        .job__text h3 {
+        .job__content h3 {
             font-weight: 500;
             font-size: 16px;
             line-height: 18px;
-            padding-bottom: 8px;
+            padding-bottom: 10px;
         }
 
-        .job__text a {
-            
+        .job__buttons {
+            margin-top: 16px;
         }
 
+
+
+        
 /*CONTATO*/
 
 .contact {
     background-color: rgba(234, 242, 253, 1);
 }
 
+    .my__contact {
+        display: flex;
+    }
+
+        .my__contact img{
+            max-width: 300px;
+           border-radius: 10px;
+        }
+
+        .my__contact__content {
+            padding-left: 30px;
+        }
+
+        .my__contact h1 {
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 38px;
+            padding-bottom: 16px;
+        }
+
+        .my__contact li {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 18px;
+            padding-bottom: 8px;
+        }
+
+        .my__contact i {
+            padding-right: 5px;
+        }
+
 /*FOOTER*/
 
 .development {
-    background-color: #F5F5F5;;
+    background-color: #F5F5F5;
+    text-align: center;
+    padding: 32px;
+
 }
 
 

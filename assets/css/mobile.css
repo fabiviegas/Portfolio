@@ -1,0 +1,248 @@
+@media screen and (max-width: 360px) {
+    
+    /*HEADER*/
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background: #F5F5F5;
+    }
+        .name {
+            font-weight: 700;
+            font-size: 16px;
+
+            margin-top: 18px;
+            margin-left: 16px;
+            
+        }
+            .name h1 {
+                padding-left: 10px;
+            }
+        
+        .menu {
+            margin-top: 18px;
+            margin-right: 16px;
+            
+        }
+            .menu__desktop {
+                display: none;
+            }
+            
+            .menu a:last-child {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+                padding-right: 0px;
+            }
+}
+
+@media screen and (max-width: 360px) {
+
+/*APRESENTAÇÃO*/
+
+.presentation__container {
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+    .presentation__content h1 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .presentation__content p {
+        font-size: 14px;
+        line-height: 16px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .my__pages {
+        font-size: 14px;
+        line-height: 16px;
+
+        max-width: 100%;
+        padding-bottom: 16px;
+    }
+            
+        .presentation__image img {
+            width: 98px;
+            padding: 16px;
+            
+        }
+    
+/*SOBRE MIM*/
+
+.about__me__container {
+    max-width: 100%;
+}
+
+    .about__me__container h1 {
+        font-size: 22px;
+        line-height: 26px;
+        padding-top: 16px;
+    }
+
+    .about__me__container p {
+        font-size: 14px;
+        line-height: 14px;
+        padding: 16px 0 16px 0;
+    }
+
+    .about__me__container img {
+        padding-bottom: 16px;
+    }
+
+/*SKILLS E HOBBIES*/
+
+    .skills__container h1, .hobbies__container h1 {
+        font-size: 22px;
+        line-height: 26px;
+        padding: 16px;
+    }
+
+        
+            .card {
+                
+                font-size: 16px;
+                line-height: 19px;
+                padding: 8px;
+                margin: 0px;
+                
+                max-width: 140px;
+                max-height: 102px;
+            }
+
+                .card:nth-child(odd) {
+                    margin-right: 16px;
+                    margin-bottom: 16px;
+                }
+            
+        .hobbies__container {
+            padding-top: 16px;
+        }
+
+/*FORMAÇÃO*/
+
+.academics__container h1 {
+    font-size: 22px;
+    line-height: 26px;
+    padding-bottom: 16px;
+    padding-top: 32px;
+}
+
+    .my__education {
+        display: flex;
+        flex-direction: column; 
+    }
+
+        .card2 {
+            padding: 16px;
+            margin: 0px;
+        }
+
+            .card2__logo {
+                width: 296px;
+                height: 118px;
+            }
+                .card2__logo img {
+                    width: 100px;
+                }
+
+            .card2 h2 {
+                font-size: 16px;
+                line-height: 19px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+            }
+
+            .card2 h3 {
+                font-size: 14px;
+                line-height: 16px;
+            }
+/*EXPERIÊNCIA PROFISSIONAL*/
+
+.professional {
+    padding-bottom: 16px;
+}
+
+    .my__jobs h1 {
+        font-size: 22px;
+        line-height: 26px;
+        padding-bottom: 16px;
+        padding-top: 16px;
+    }
+
+        .job {
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+            .job:nth-child(odd) {
+                display: flex;
+                flex-direction: column-reverse; 
+            }
+
+            
+        .job img {
+            max-width: 296px;
+        }
+
+        .job__content {
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+
+        .job__content h2 {
+            font-size: 16px;
+            line-height: 19px;
+            padding-bottom: 8px;
+            padding-top: 8px;
+        }
+
+        .job__content h3 {
+            font-size: 14px;
+            line-height: 16px;
+            padding-bottom: 8px;
+        }
+
+        .job__buttons {
+            margin-top: 16px;
+            padding-bottom: 32px;
+        }
+/*CONTATO*/
+
+.my__contact {
+    display: flex;
+    flex-direction: column;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+    .my__contact img {
+        display: none;
+    }
+
+    .my__contact__content {
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 16px;
+    }
+
+    .my__contact h1 {
+        font-size: 22px;
+        line-height: 26px;
+        padding-bottom: 16px;
+        padding-top: 16px;
+    }
+
+    .my__contact li {
+        font-size: 16px;
+        line-height: 18px;
+        padding-bottom: 8px;
+    }
+}

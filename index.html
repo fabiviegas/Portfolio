@@ -10,7 +10,8 @@
 
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
-
+    <link rel="stylesheet" href="assets/css/style_base.css">
+    <link rel="stylesheet" href="assets/css/mobile.css">
 </head>
 <body>
     
@@ -21,12 +22,12 @@
         </div>
         <div class="menu">
             <nav>
-                <a href="#sobre-mim">Sobre mim</a>
-                <a href="#skills">Skills</a>
-                <a href="#hobbies">Hobbies</a>
-                <a href="#formacao">Formação</a>
-                <a href="#jobs">Projetos</a>
-                <a href="#contact">fabicviegas@gmail.com</a>
+                <a class="menu__desktop" href="#sobre-mim">Sobre mim</a>
+                <a class="menu__desktop" href="#skills">Skills</a>
+                <a class="menu__desktop" href="#hobbies">Hobbies</a>
+                <a class="menu__desktop" href="#formacao">Formação</a>
+                <a class="menu__desktop" href="#jobs">Projetos</a>
+                <a class="menu__mobile" href="#contact">fabicviegas@gmail.com</a>
             </nav>
          </div>
         
@@ -36,6 +37,9 @@
     <section class="presentation">
        <div class="section__container">
            <div class="presentation__container">
+                <div class="presentation__image">
+                <img src="assets/images/fabi.png" alt="Foto da Fabi">
+                </div>
                 <div class="presentation__content">
                     <h1>Olá, meu nome é Fabiane Viegas e construo páginas web</h1>
                     <p>Eu estou cursando Gestão em TI e participando do projeto Oracle ONE na Alura, com formação em Programação e Front-end.</p>
@@ -45,9 +49,7 @@
                         <a href="#">Currículo <img src="assets/images/seta.svg" alt="seta"></a>
                     </div>
                 </div>
-                <div class="presentation__image">
-                    <img src="assets/images/fabi.png" alt="Foto da Fabi">
-                </div>
+                
            </div>
        </div>
     </section>

@@ -21,22 +21,6 @@
     margin-right: 10px;
 }
 
-@media screen and (max-width: 360px) {
-    .button__1 {
-        padding: 12px 16px 12px 16px;
-        font-size: 14px;
-        line-height: 16px;
-    }
-    
-    .button__2 {
-        padding: 12px 16px 12px 16px;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 16px;
-    
-        margin-right: 10px;
-    }
-}
 
 /*BODY GERAL*/
 
@@ -46,11 +30,7 @@ body {
     width: 100vw;
 }
 
-@media screen and (max-width: 360px) {
-    body {
-        width: 360px;
-    }
-}
+
 
 /*SECTION BASE*/
 
@@ -59,16 +39,6 @@ body {
     margin-left: 150px;
     padding-top: 30px;
     padding-bottom: 30px;
-}
-
-@media screen and (max-width: 360px) {
-
-    .section__container {
-        margin-right: 16px;
-        margin-left: 16px;
-        padding-top: 0px;
-        padding-bottom: 0px;
-    }
 }
 
 

@@ -1,30 +1,40 @@
-@media screen and (max-width: 360px) {
+@media (min-width: 360px) and (max-width: 500px) {
+    /*BASE*/
+    .button__1 {
+        padding: 12px 16px 12px 16px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+    .button__2 {
+        padding: 12px 16px 12px 16px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    
+        margin-right: 10px;
+    }
+
+        .section__container {
+            margin-right: 16px;
+            margin-left: 16px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
     
     /*HEADER*/
 
-    header {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        background: #F5F5F5;
-    }
         .name {
-            font-weight: 700;
-            font-size: 16px;
-
-            margin-top: 18px;
-            margin-left: 16px;
-            
+            margin: 16px 10px 16px 16px;
+            padding-bottom: 0px;
         }
-            .name h1 {
+        .name h1 {
                 padding-left: 10px;
             }
         
         .menu {
-            margin-top: 18px;
-            margin-right: 16px;
-            
+            margin: 16px;
+            padding-bottom: 0px;
         }
             .menu__desktop {
                 display: none;
@@ -35,10 +45,9 @@
                 font-size: 14px;
                 line-height: 16px;
                 padding-right: 0px;
+                padding-left: 0px;
             }
-}
 
-@media screen and (max-width: 360px) {
 
 /*APRESENTAÇÃO*/
 
@@ -66,10 +75,13 @@
 
         max-width: 100%;
         padding-bottom: 16px;
+        
+        display: flex;
+        justify-content: space-between;
     }
             
         .presentation__image img {
-            width: 98px;
+            max-width: 98px;
             padding: 16px;
             
         }
@@ -107,8 +119,8 @@
         
             .card {
                 
-                font-size: 16px;
-                line-height: 19px;
+                font-size: 14px;
+                line-height: 16px;
                 padding: 8px;
                 margin: 0px;
                 
@@ -179,6 +191,8 @@
         .job {
             display: flex;
             flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
             
         }
 
@@ -189,12 +203,11 @@
 
             
         .job img {
-            max-width: 296px;
+            width: 100%;
         }
 
         .job__content {
-            margin-left: 25px;
-            margin-right: 25px;
+            margin: 0px;
         }
 
         .job__content h2 {

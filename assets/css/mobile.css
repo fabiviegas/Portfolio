@@ -83,6 +83,7 @@
         .presentation__image img {
             max-width: 98px;
             padding: 16px;
+
             
         }
     
@@ -139,7 +140,7 @@
 
 /*FORMAÇÃO*/
 
-.academics__container h1 {
+.first__title, .second__title {
     font-size: 22px;
     line-height: 26px;
     padding-bottom: 16px;
